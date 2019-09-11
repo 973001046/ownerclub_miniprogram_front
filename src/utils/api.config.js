@@ -1,0 +1,12 @@
+export const AUTHOR = '/college/verify' // 授权登录
+export const BIND_ACCOUNT = '/chuangfu/accountBind' // 账号绑定
+export const MY_LINKS = '/chuangfu/payLink/list' // 我的链接
+export const ORDER_LIST = '/chuangfu/pay/order' // 收款记录
+export const CREATE_LINK = '/chuangfu/payLink/create' // 创建链接
+export const TYPE = '/chuangfu/payLink/type' // 类型与项目
+export const FORMID = '/chuangfu/message/formIDSave' // 类型与项目
+export const CLASS_LIST = '/chuangfu/classes' // 班主任选择指定班级
+export const CLASS_INFO = '/chuangfu/classInfo' // 班级详情
+export const CLASS_ATTEND = '/chuangfu/classAttend' // 列表
+export const CLASS_LEAVE = '/chuangfu/classLeave' // 请假 提交
+export const FORM_EXPORT = '/chuangfu/formExport' // 课前、课后反馈

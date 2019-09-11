@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "pages/login/main"
+  ],
+  "disableScroll": true,
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}
