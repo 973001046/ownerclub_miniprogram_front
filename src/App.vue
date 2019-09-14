@@ -1,21 +1,7 @@
 <script>
-import { mapActions } from 'Vuex'
-
 export default {
-  methods: {
-    ...mapActions(['userLogin'])
-  },
   created () {
     console.log('created')
-    this.userLogin()
-      .then(res => {
-        console.log('app login')
-        wx.redirectTo({ url: '/pages/index/main' })
-      })
-      .catch((res, err) => {
-        console.log(err)
-        wx.redirectTo({ url: '/pages/login/main' })
-      })
   }
 }
 </script>

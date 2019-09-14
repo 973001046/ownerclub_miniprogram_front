@@ -1,12 +1,9 @@
 {
   "pages": [
-    "pages/login/main"
-  ],
-  "disableScroll": true,
-  "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
-  }
+    "pages/index/main",
+    "pages/list/main",
+    "pages/ruler/main",
+    "pages/winner/main",
+    "pages/game/main"
+  ]
 }
